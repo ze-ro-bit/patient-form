@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Patient Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address" required>
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city" required>
+		<label for="state">Province:</label>
+		<input type="text" id="province" name="province" required>
+		<label for="zip">Zip Code:</label>
+		<input type="text" id="zip" name="zip" required>
+
+		<label for="symptoms">Medical History:</label>
+		<input type="checkbox" id="asthma" name="asthma"> Asthma
+		<input type="checkbox" id="cancer" name="cancer"> Asthma
+		<input type="checkbox" id="cardiac" name="cardiac"> Asthma
+		<input type="submit" value="Submit">
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
